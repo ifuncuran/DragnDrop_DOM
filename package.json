@@ -1,0 +1,18 @@
+{
+  "name": "hh-drag-and-drop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kondrashov Alexey",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url '.'",
+    "deploy": "yarn build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gh-pages": "^3.1.0",
+    "less": "^4.1.0"
+  }
+}
