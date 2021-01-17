@@ -1,0 +1,57 @@
+.DnD {
+  border: 2px solid #a8c2bd;
+  color: black;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 1000px;
+}
+.DnD__origin {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.DnD__draggable {
+  width: 100px;
+  height: 100px;
+  background-color: #4aae9b;
+}
+.DnD__draggable_disapearing {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 0s 1s;
+}
+.dropzone {
+  display: flex;
+  height: 400px;
+}
+.dropzone__grid-container,
+.dropzone__nogrid {
+  box-sizing: border-box;
+  width: 300px;
+  height: 400px;
+  background-color: #a6e0be;
+  margin-right: 50px;
+}
+.dropzone__grid-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: flex-start;
+}
+.dropzone__grid-block {
+  position: relative;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: #a6e0be;
+}
+.dropzone__nogrid {
+  position: relative;
+  overflow: hidden;
+}
+
+
+/*# sourceMappingURL=/styles.45de0957.css.map */
